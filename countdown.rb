@@ -2,8 +2,8 @@
 
 def countdown(n)
   count = n
-  while count > 1
-    puts "#{count} SECOND(S)"
+  while count > 0
+    puts "#{count} SECOND(S)!"
     count -= 1
     sleep(1)
   end
